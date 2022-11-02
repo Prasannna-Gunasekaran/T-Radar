@@ -1,0 +1,205 @@
+[
+      {
+        "quadrant": 1,
+        "ring": 0,
+        "label": "Splunk",
+        "active": true,
+        "moved": 0
+      },
+      {
+        "quadrant": 1,
+        "ring": 1,
+        "label": "Databricks",
+        "active": true,
+        "moved": 0
+      },
+      {
+        "quadrant": 0,
+        "ring": 0,
+        "label": "Python",
+        "active": true,
+        "moved": 0
+      },
+      {
+        "quadrant": 1,
+        "ring": 0,
+        "label": "Apache Spark",
+        "active": true,
+        "moved": 0
+      },
+      {
+        "quadrant": 2,
+        "ring": 0,
+        "label": "Terraform",
+        "active": true,
+        "moved": 0
+      },
+      {
+        "quadrant": 1,
+        "ring": 0,
+        "label": "GitLab",
+        "active": true,
+        "moved": 0
+      },
+      {
+        "quadrant": 1,
+        "ring": 0,
+        "label": "Azure",
+        "active": true,
+        "moved": 0
+      },
+      {
+        "quadrant": 1,
+        "ring": 0,
+        "label": "Kafka",
+        "active": true,
+        "moved": 0
+      },
+      {
+        "quadrant": 2,
+        "ring": 0,
+        "label": "Debezium",
+        "active": true,
+        "moved": 0
+      },
+      {
+        "quadrant": 3,
+        "ring": 0,
+        "label": "SAFe",
+        "active": true,
+        "moved": 0
+      },
+      {
+        "quadrant": 1,
+        "ring": 0,
+        "label": "Kubernetes",
+        "active": true,
+        "moved": 0
+      },
+      {
+        "quadrant": 2,
+        "ring": 0,
+        "label": "Helm",
+        "active": true,
+        "moved": 0
+      },
+      {
+        "quadrant": 2,
+        "ring": 0,
+        "label": "Prometheus",
+        "active": true,
+        "moved": 0
+      },
+      {
+        "quadrant": 0,
+        "ring": 0,
+        "label": "Go",
+        "active": true,
+        "moved": 0
+      },
+      {
+        "quadrant": 2,
+        "ring": 0,
+        "label": "NeoLoad/Tricentis",
+        "active": true,
+        "moved": 0
+      },
+      {
+        "quadrant": 2,
+        "ring": 0,
+        "label": "AMA Spoud",
+        "active": true,
+        "moved": 0
+      },
+      {
+        "quadrant": 0,
+        "ring": 0,
+        "label": "Angular",
+        "active": true,
+        "moved": 0
+      },
+      {
+        "quadrant": 0,
+        "ring": 0,
+        "label": "NestJS",
+        "active": true,
+        "moved": 0
+      },
+      {
+        "quadrant": 0,
+        "ring": 0,
+        "label": "TypeScript",
+        "active": true,
+        "moved": 0
+      },
+      {
+        "quadrant": 1,
+        "ring": 0,
+        "label": "OmniBoard",
+        "active": true,
+        "moved": 0
+      },
+      {
+        "quadrant": 2,
+        "ring": 0,
+        "label": "Renovate",
+        "active": true,
+        "moved": 0
+      },
+      {
+        "quadrant": 1,
+        "ring": 1,
+        "label": "Whitesource",
+        "active": true,
+        "moved": 0
+      },
+      {
+        "quadrant": 1,
+        "ring": 0,
+        "label": "Teamcity",
+        "active": true,
+        "moved": 0
+      },
+      {
+        "quadrant": 2,
+        "ring": 0,
+        "label": "Nexus",
+        "active": true,
+        "moved": 0
+      },
+      {
+        "quadrant": 2,
+        "ring": 0,
+        "label": "Nexus IQ",
+        "active": true,
+        "moved": 0
+      },
+      {
+        "quadrant": 2,
+        "ring": 0,
+        "label": "SonarQube",
+        "active": true,
+        "moved": 0
+      },
+      {
+        "quadrant": 1,
+        "ring": 0,
+        "label": "Rocket Chat",
+        "active": true,
+        "moved": 0
+      },
+      {
+        "quadrant": 2,
+        "ring": 0,
+        "label": "Ansible",
+        "active": true,
+        "moved": 0
+      },
+      {
+        "quadrant": 0,
+        "ring": 0,
+        "label": "Quarkus",
+        "active": true,
+        "moved": 0
+      }
+]
