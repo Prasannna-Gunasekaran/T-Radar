@@ -1,7 +1,7 @@
 # Motivation
 
-At [Zalando](http://zalando.de), we maintain a [public Tech
-Radar](http://zalando.github.io/tech-radar/) to help our engineering teams
+At Mobiliar, we maintain a [public Tech
+Radar]  to help our engineering teams
 align on technology choices. It is based on the [pioneering work
 by ThoughtWorks](https://www.thoughtworks.com/radar).
 
@@ -15,7 +15,7 @@ Feel free to use and adapt it for your own purposes.
 
 ```html
 <script src="https://d3js.org/d3.v4.min.js"></script>
-<script src="http://zalando.github.io/tech-radar/release/radar-0.6.js"></script>
+<script src="[https://prasannna-gunasekaran.github.io/T-Radar/release/radar-0.6.js"></script>
 ```
 
 2. insert an empty `svg` tag:
@@ -67,7 +67,7 @@ radar_visualization({
 Entries are positioned automatically so that they don't overlap.
 
 As a working example, you can check out `docs/index.html` &mdash; the source of our [public Tech
-Radar](http://zalando.github.io/tech-radar/).
+Radar][(https://prasannna-gunasekaran.github.io/T-Radar/)].
 
 ## Local Development
 
@@ -94,7 +94,7 @@ http://localhost:3000/
 ```
 The MIT License (MIT)
 
-Copyright (c) 2017-2022 Zalando SE
+Copyright (c) 2017-2022 Mobiliar SE
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
