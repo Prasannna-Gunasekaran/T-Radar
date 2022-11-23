@@ -69,7 +69,6 @@ STEP1: You can either Drag and drop the files by creating the folder setup in th
 STEP2: You can even use the cloning option or adding directly from UI option based on user desicion.
 Say what the step will be
 
-```
 ## Deployment
 ### Hosting code in GitHub Pages
 
