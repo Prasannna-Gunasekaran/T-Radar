@@ -1,116 +1,100 @@
-# Motivation
+# _TechRadar_
 
-At Mobiliar, we maintain a [public Tech
-Radar]  to help our engineering teams
-align on technology choices. It is based on the [pioneering work
-by ThoughtWorks](https://www.thoughtworks.com/radar).
+The Tech Radar is a list of technologies, complemented by an assessment result, called ring assignment. 
+The Tech Radar is a tool to inspire and support Engineering teams at Mobilair to pick the best technologies for new projects; it provides a platform to share knowledge and experience in technologies, to reflect on technology decisions and continuously evolve our technology landscape.
 
-This repository contains the code to generate the visualization:
-[`radar.js`](/docs/radar.js) (based on [d3.js v4](https://d3js.org)).
-Feel free to use and adapt it for your own purposes.
+We use four rings to describe the various Tech stacks.
 
-## Usage
+ADOPT — Technologies we have high confidence in to serve our purpose, also in large scale. Technologies with a usage culture in our Zalando production environment, low risk and recommended to be widely used.
+TRIAL — Technologies that we have seen work with success in project work to solve a real problem; first serious usage experience that confirm benefits and can uncover limitations. TRIAL technologies are slightly more risky; some engineers in our organization walked this path and will share knowledge and experiences.
+ASSESS — Technologies that are promising and have clear potential value-add for us; technologies worth to invest some research and prototyping efforts in to see if it has impact. ASSESS technologies have higher risks; they are often brand new and highly unproven in our organisation. You will find some engineers that have knowledge in the technology and promote it, you may even find teams that have started a prototyping effort.
+HOLD — Technologies not recommended to be used for new projects. Technologies that we think are not (yet) worth to (further) invest in. HOLD technologies should not be used for new projects, but usually can be continued for existing projects.
 
-1. include `d3.js` and `radar.js`:
+In this Techradar, we have added the source Links to all the tools on the stack so that when the Architect decides to use the certain tool he can have an idea about the tool in detail. These Links can be customised with internal CWIKI Links which is based on the decision from the Project Management. Currently we are going on with External Google source links of the tools. Hoep you got an idea of the Project, below you can find the steps for working with them in local machines and required detais to Maintain the radar.
 
-```html
-<script src="https://d3js.org/d3.v4.min.js"></script>
-<script src="[https://prasannna-gunasekaran.github.io/T-Radar/release/radar-0.6.js"></script>
-```
 
-2. insert an empty `svg` tag:
 
-```html
-<svg id="radar"></svg>
-```
+## Getting Started
 
-3. configure the radar visualization:
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
 
-```js
-radar_visualization({
-  svg_id: "radar",
-  width: 1450,
-  height: 1000,
-  colors: {
-    background: "#fff",
-    grid: "#bbb",
-    inactive: "#ddd"
-  },
-  title: "My Radar",
-  quadrants: [
-    { name: "Bottom Right" },
-    { name: "Bottom Left" },
-    { name: "Top Left" },
-    { name: "Top Right" }
-  ],
-  rings: [
-    { name: "INNER",  color: "#93c47d" },
-    { name: "SECOND", color: "#b7e1cd" },
-    { name: "THIRD",  color: "#fce8b2" },
-    { name: "OUTER",  color: "#f4c7c3" }
-  ],
-  print_layout: true,
-  entries: [
-   {
-      label: "Some Entry",
-      quadrant: 3,          // 0,1,2,3 (counting clockwise, starting from bottom right)
-      ring: 2,              // 0,1,2,3 (starting from inside)
-      moved: -1             // -1 = moved out (triangle pointing down)
-                            //  0 = not moved (circle)
-                            //  1 = moved in  (triangle pointing up)
-   },
-    // ...
-  ]
-});
-```
-
-Entries are positioned automatically so that they don't overlap.
-
-As a working example, you can check out `docs/index.html` &mdash; the source of our [public Tech
-Radar][(https://prasannna-gunasekaran.github.io/T-Radar/)].
-
-## Local Development
-
-1. install dependencies with yarn (or npm):
+STEP 1: Downlaod the copy and save in your Local Machine.
+STEP 2: Work on the JSON files and updations in your Local Machine.
+STEP 3: Project related Files 
+        1.index.html
+        2.entries.json
+        3.radar.js
+PATH: diemobilar/JAP Techradar/docs
 
 ```
-yarn 
-```
+##Here from the source code we have separated the "entries.json" so that in future anyone can edit the hosted techstack based on the requirements. This will not cause any damage to the source code file "radar.js".
 
-2. start local dev server:
+## Files to Edit 
+
+## To change the color code or any sizes of the text the contributors can use the Project related files based on the requirements.
+
+1. entries.json
+      For any new addition of tools in dieMobiliar and to add links for those applications in the stack. In this we can decide the quadrants and rings of the applications.
+
+### How to run the file in local browser(Google chrome)
+
+For Example:
+
+Step 1:
+	Open cmd in chrome location:
+C:\ProgramData\Microsoft\Windows\Start Menu\Programs>
+
+Step 2:
+	Start chrome with allow file access using the below command
+    COMMAND: "Google Chrome.lnk" --allow-file-access-from-files
+
+Step 3:
+	Run the edited index.html file using the opened chrome
+
+##  After successful validations in Local machine you can then use the GitHub for hosting them. 
+
+CONDITIONS:
+
+1.The Repository should be Public.
+2.Make sure the Team members are invited to the Repository so that they can validate or work in parallel when required.(Only the Repository Owner can do this activity)
+    PATH: Settings/Access/Collborators/search through email and invite them.
+        NOTE:They must have created an Github account using the official emaild before inviting them.
+
+### Adding files to Techradar Repository in GitHub
+
+STEP1: You can either Drag and drop the files by creating the folder setup in the mobiliar Repository.
+           Note:Use Slash / after the name in the " Add file/create New file " for creating the folder.
+STEP2: You can even use the cloning option or adding directly from UI option based on user desicion.
+Say what the step will be
 
 ```
-yarn start
-```
+## Deployment
+### Hosting code in GitHub Pages
 
-3. your default browser should automatically open and show the url
- 
-```
-http://localhost:3000/
-```
+STEP1:Go to the following path in the Repository.
+    PATH: Settings/Pages/Build and Deployement
+STEP2:Here you can either host the pages from Main or Branches from the folder where the "index.html" file is available.
+    NOTE: The hosted page link will be available in the top of the page after successful Deployement.There you can validate the final output in a hosted webpage.
+
+### Hosting code using the custom Doamian of Mobiliar.
+
+STEP1:In the same page you will find the custom domain where you can use the custom domain of Mobilair and the host the page.
+        Example:"techradar.mobi.ch"
+
+## Running the tests
+
+After successful hosting of pages using custom domain of mobiliar you can validate the same by sending them to your others in mobiliar so that the goal is completed.
+
+## Authors
+
+* Prasanna Gunasekaran - TEAM DABBANG - Diemobiliar 
 
 ## License
 
-```
-The MIT License (MIT)
+This project is licensed under the MIT - see the [LICENSE.md](LICENSE.md) file for details
 
-Copyright (c) 2017-2022 Mobiliar SE
+## Acknowledgments
+Acknowledge Peopel helping you build this project.
+* Thanks to the [zalando](https://github.com/zalando) project for helping throughout the project.
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
 
-The above copyright notice and this permission notice shall be included in
-all copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
-THE SOFTWARE.
-```
