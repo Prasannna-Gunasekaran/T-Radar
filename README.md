@@ -13,7 +13,7 @@ ASSESS — Technologies that are promising and have clear potential value-add fo
 
 HOLD — Technologies not recommended to be used for new projects. Technologies that we think are not (yet) worth to (further) invest in. HOLD technologies should not be used for new projects, but usually can be continued for existing projects.
 
-In this Techradar, we have added the source Links to all the tools on the stack so that when the Architect decides to use the certain tool he can have an idea about the tool in detail. These Links can be customised with internal CWIKI Links which is based on the decision from the Project Management. Currently we are going on with External Google source links of the tools. Hoep you got an idea of the Project, below you can find the steps for working with them in local machines and required detais to Maintain the radar.
+In this Techradar, we have added the source Links to all the tools on the stack so that when the Architect decides to use the certain tool he can have an idea about the tool in detail. These Links can be customised with internal CWIKI Links which is based on the decision from the Project Management. Currently we are going on with External Google source links of the tools. Hoep you got an idea of the Project, below you can find the steps for working with them in local machines and required details to Maintain the radar.
 
 
 
@@ -48,10 +48,12 @@ For Example:
 
 Step 1:
 	Open cmd in chrome location:
+	
 C:\ProgramData\Microsoft\Windows\Start Menu\Programs>
 
 Step 2:
 	Start chrome with allow file access using the below command
+	
     COMMAND: "Google Chrome.lnk" --allow-file-access-from-files
 
 Step 3:
