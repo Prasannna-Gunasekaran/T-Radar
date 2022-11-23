@@ -21,7 +21,7 @@ In this Techradar, we have added the source Links to all the tools on the stack 
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
 
-STEP 1: Downlaod the copy and save in your Local Machine.
+STEP 1: Download the copy and save in your Local Machine.
 STEP 2: Work on the JSON files and updations in your Local Machine.
 STEP 3: Project related Files 
         1.index.html
@@ -29,7 +29,6 @@ STEP 3: Project related Files
         3.radar.js
 PATH: diemobilar/JAP Techradar/docs
 
-```
 ##Here from the source code we have separated the "entries.json" so that in future anyone can edit the hosted techstack based on the requirements. This will not cause any damage to the source code file "radar.js".
 
 ## Files to Edit 
