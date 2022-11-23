@@ -49,7 +49,7 @@ For Example:
 Step 1:
 	Open cmd in chrome location:
 	
-C:\ProgramData\Microsoft\Windows\Start Menu\Programs>
+	C:\ProgramData\Microsoft\Windows\Start Menu\Programs>
 
 Step 2:
 	Start chrome with allow file access using the below command
