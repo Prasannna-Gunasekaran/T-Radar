@@ -69,7 +69,7 @@ CONDITIONS:
 
     PATH: Settings/Access/Collborators/search through email and invite them.
     
-        NOTE:They must have created an Github account using the official emaild before inviting them.
+  NOTE:They must have created an Github account using the official emaild before inviting them.
 
 ### Adding files to Techradar Repository in GitHub
 
@@ -88,15 +88,15 @@ STEP1:Go to the following path in the Repository.
     
 STEP2:Here you can either host the pages from Main or Branches from the folder where the "index.html" file is available.
 
-    NOTE: The hosted page link will be available in the top of the page after successful Deployement.There you can validate the final output in a hosted webpage.
+ NOTE: The hosted page link will be available in the top of the page after successful Deployement.There you can validate the final output in a hosted webpage.
     
-    	Example: "https://prasannna-gunasekaran.github.io/T-Radar/"
+    		Example: "https://prasannna-gunasekaran.github.io/T-Radar/"
 
 ### Hosting code using the custom Doamian of Mobiliar.
 
 STEP1:In the same page you will find the custom domain where you can use the custom domain of Mobilair and the host the page.
 
-        Example:"techradar.mobi.ch"
+     		   Example:"techradar.mobi.ch"
 
 ## Running the tests
 
