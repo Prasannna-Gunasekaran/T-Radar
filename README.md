@@ -30,9 +30,10 @@ STEP 3: Project related Files
         2.entries.json
         3.radar.js
 	
-PATH: diemobilar/JAP Techradar/docs
+	PATH: diemobilar/JAP Techradar/docs
 
-## Here from the source code we have separated the "entries.json" so that in future anyone can edit the hosted techstack based on the requirements. This will not cause any damage to the source code file "radar.js".
+## FYI
+Here from the source code we have separated the "entries.json" so that in future anyone can edit the hosted techstack based on the requirements. This will not cause any damage to the source code file "radar.js".
 
 ## Files to Edit 
 
@@ -61,28 +62,38 @@ Step 3:
 CONDITIONS:
 
 1.The Repository should be Public.
+
 2.Make sure the Team members are invited to the Repository so that they can validate or work in parallel when required.(Only the Repository Owner can do this activity)
+
     PATH: Settings/Access/Collborators/search through email and invite them.
+    
         NOTE:They must have created an Github account using the official emaild before inviting them.
 
 ### Adding files to Techradar Repository in GitHub
 
 STEP1: You can either Drag and drop the files by creating the folder setup in the mobiliar Repository.
+
            Note:Use Slash / after the name in the " Add file/create New file " for creating the folder.
+	   
 STEP2: You can even use the cloning option or adding directly from UI option based on user desicion.
-Say what the step will be
 
 ## Deployment
 ### Hosting code in GitHub Pages
 
 STEP1:Go to the following path in the Repository.
+
     PATH: Settings/Pages/Build and Deployement
+    
 STEP2:Here you can either host the pages from Main or Branches from the folder where the "index.html" file is available.
+
     NOTE: The hosted page link will be available in the top of the page after successful Deployement.There you can validate the final output in a hosted webpage.
+    
+    	Example: "https://prasannna-gunasekaran.github.io/T-Radar/"
 
 ### Hosting code using the custom Doamian of Mobiliar.
 
 STEP1:In the same page you will find the custom domain where you can use the custom domain of Mobilair and the host the page.
+
         Example:"techradar.mobi.ch"
 
 ## Running the tests
@@ -98,7 +109,7 @@ After successful hosting of pages using custom domain of mobiliar you can valida
 This project is licensed under the MIT - see the [LICENSE.md](LICENSE.md) file for details
 
 ## Acknowledgments
-Acknowledge People helping you build this project.
-* Thanks to the [zalando](https://github.com/zalando) project for helping throughout the project.
+
+* Thanks to all for helping us throughout the project.
 
 
