@@ -31,6 +31,16 @@ Here from the source code we have separated the "entries.json" so that in future
 
 1. entries.json
       For any new addition of tools in dieMobiliar and to add links for those applications in the stack. In this we can decide the quadrants and rings of the applications.
+      ### Quadrant 0-Languages & Frameworks
+      ### Quadrant 1-Platforms & Services
+      ### Quadrant 2-Tools
+      ### Quadrant 3-Methodologies
+      ### Ring 0-Adopt
+      ### Ring 1-Trial
+      ### Ring 2-Assess
+      ### Ring 3-Hold
+      ### Link- All the links provided here is completely taken from Google as the source website of concern application.
+
 
 ### How to run the file in local browser(Google chrome)
 
