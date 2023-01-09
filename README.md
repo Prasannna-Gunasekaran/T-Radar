@@ -19,32 +19,27 @@ These instructions will get you a copy of the project up and running on your loc
 
 1. Clone the repository to your local machine.
 2. Relevant files are located in the _docs_ folder. To change assignements for technologies you will have to edit _entries.json_ accordingly.
-	
-	PATH: diemobilar/JAP Techradar/docs
 
-### FYI
-Here from the source code we have separated the "entries.json" so that in future anyone can edit the hosted techstack based on the requirements. This will not cause any damage to the source code file "radar.js".
+Note: for better maintainability we separated the "entries.json" from the "radar.js" so that anyone can edit the content of the tech radar without causing any damage to the source code of the radar.
 
-## Files to Edit 
+## Edit the Tech Radar content
 
-## To change the color code or any sizes of the text the contributors can use the Project related files based on the requirements.
+### To change the color code or any sizes of the text the contributors can use the Project related files based on the requirements.
 
-1. entries.json
-      For any new addition of tools in dieMobiliar and to add links for those applications in the stack. In this we can decide the quadrants and rings of the applications.
-      ### Quadrant 0-Languages & Frameworks
-      ### Quadrant 1-Platforms & Services
-      ### Quadrant 2-Tools
-      ### Quadrant 3-Methodologies
-      ### Ring 0-Adopt
-      ### Ring 1-Trial
-      ### Ring 2-Assess
-      ### Ring 3-Hold
-      ### Link- All the links provided here is completely taken from Google as the source website of concern application.
+To add and remove technologies to different rings on the radar simply change the appropriate properties in "entries.json" according to the below mapping:
 
+* Quadrant 0 - Languages & Frameworks
+* Quadrant 1 - Platforms & Services
+* Quadrant 2 - Tools
+* Quadrant 3 - Methodologies
+* Ring 0 - Adopt
+* Ring 1 - Trial
+* Ring 2 - Assess
+* Ring 3 - Hold
 
-### How to run the file in local browser(Google chrome)
+Dont forget to add a link if applicable.
 
-For Example:
+## How to run the Tech Radar in your local environment (Google chrome)
 
 Step 1:
 	Open cmd in chrome location:
@@ -59,13 +54,13 @@ Step 2:
 Step 3:
 	Run the edited index.html file using the opened chrome
 
-## After successful validations in Local machine you can then use the GitHub for hosting them. 
+## Deployment to Github pages. 
 
 CONDITIONS:
 
 1.The Repository should be Public.
 
-2.Make sure the Team members are invited to the Repository so that they can validate or work in parallel when required.(Only the Repository Owner can do this activity)
+2.Make sure the Team members are invited to the Repository so that they can validate or work in parallel when required (only the Repository Owner can do this activity).
 
     PATH: Settings/Access/Collborators/search through email and invite them.
     
@@ -79,7 +74,6 @@ STEP1: You can either Drag and drop the files by creating the folder setup in th
 	   
 STEP2: You can even use the cloning option or adding directly from UI option based on user desicion.
 
-## Deployment
 ### Hosting code in GitHub Pages
 
 STEP1:Go to the following path in the Repository.
@@ -104,7 +98,7 @@ After successful hosting of pages using custom domain of mobiliar you can valida
 
 ## Authors
 
-* Prasanna Gunasekaran - TEAM DABBANG - Diemobiliar 
+* Prasanna Gunasekaran - TEAM DABBANG - La Mobilière
 
 ## License
 
@@ -113,5 +107,3 @@ This project is licensed under the MIT - see the [LICENSE.md](LICENSE.md) file f
 ## Acknowledgments
 
 * Thanks to all for helping us throughout the project.
-
-
