@@ -72,30 +72,6 @@
         "moved": 0
       },
       {
-        "quadrant": 0,
-        "ring": 3,
-        "label": ".Net",
-        "link": "https://dotnet.microsoft.com/en-us/",
-        "active": true,
-        "moved": 0
-      },
-      {
-        "quadrant": 0,
-        "ring": 3,
-        "label": "cobol",
-        "link": "https://developer.ibm.com/languages/cobol/",
-        "active": true,
-        "moved": 0
-      },
-      {
-        "quadrant": 0,
-        "ring": 3,
-        "label": "Smalltalk/Squeak",
-        "link": "https://squeak.org/",
-        "active": true,
-        "moved": 0
-      },
-      {
         "quadrant": 1,
         "ring": 0,
         "label": "Azure Functions", 
@@ -177,7 +153,7 @@
       },
       {
         "quadrant": 1,
-        "ring": 1,
+        "ring": 0,
         "label": "Databricks",
         "link": "https://www.databricks.com/",
         "active": true,
