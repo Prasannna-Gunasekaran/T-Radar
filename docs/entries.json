@@ -1,0 +1,425 @@
+[
+     {
+        "quadrant": 0,
+        "ring": 0,
+        "label": "Python",
+        "link": "https://www.python.org/", 
+        "active": true,
+        "moved": 0
+      },
+      {
+        "quadrant": 0,
+        "ring": 0,
+        "label": "Angular",
+        "link": "https://angular.io/",
+        "active": true,
+        "moved": 0
+      },
+      {
+        "quadrant": 0,
+        "ring": 0,
+        "label": "NestJS",
+        "link": "https://nestjs.com/",
+        "active": true,
+        "moved": 0
+      },
+      {
+        "quadrant": 0,
+        "ring": 0,
+        "label": "TypeScript",
+        "link": "https://www.typescriptlang.org/",
+        "active": true,
+        "moved": 0
+      },
+      {
+        "quadrant": 0,
+        "ring": 0,
+        "label": "Quarkus",
+        "link": "https://quarkus.io/",
+        "active": true,
+        "moved": 0
+      },
+      {
+        "quadrant": 0,
+        "ring": 0,
+        "label": "Go",
+        "link": "https://go.dev/",
+        "active": true,
+        "moved": 0
+      },
+      {
+        "quadrant": 0,
+        "ring": 0,
+        "label": "Java",
+        "link": "https://www.java.com/en/",
+        "active": true,
+        "moved": 0
+      },
+      {
+        "quadrant": 0,
+        "ring": 1,
+        "label": "Kotlin",
+        "link": "https://kotlinlang.org/",
+        "active": true,
+        "moved": 0
+      },
+      {
+        "quadrant": 0,
+        "ring": 1,
+        "label": "GraphQL",
+        "link": "https://graphql.org/",
+        "active": true,
+        "moved": 0
+      },
+      {
+        "quadrant": 1,
+        "ring": 0,
+        "label": "Azure Functions", 
+        "link": "https://azure.microsoft.com/en-us/products/functions/",
+        "active": true,
+        "moved": 0
+      },
+      {
+        "quadrant": 1,
+        "ring": 0,
+        "label": "Azure API Management",
+        "link": "https://azure.microsoft.com/en-us/products/api-management/",
+        "active": true,
+        "moved": 0
+      },
+      {
+        "quadrant": 1,
+        "ring": 0,
+        "label": "GitLab",
+        "link": "https://about.gitlab.com/why-gitlab/?utm_medium=cpc&utm_source=google&utm_campaign=brand_emea_rtg_rsa_br_exact&utm_content=why-gitlab_digital_x-rtg_english_&_bt=414669270194&_bk=gitlab&_bm=e&_bn=g&_bg=92195231643&gclid=EAIaIQobChMIopGro_fX-wIVWPh3Ch22XwwdEAAYASAAEgJN1fD_BwE",
+        "active": true,
+        "moved": 0
+      },
+      {
+        "quadrant": 1,
+        "ring": 0,
+        "label": "Docker",
+        "link": "https://www.docker.com/",
+        "active": true,
+        "moved": 0
+      },
+      {
+        "quadrant": 1,
+        "ring": 0,
+        "label": "Azure Monitor",
+        "link": "https://azure.microsoft.com/en-us/products/monitor/",
+        "active": true,
+        "moved": 0
+      },
+      {
+        "quadrant": 1,
+        "ring": 0,
+        "label": "Kubernetes (AKS)",
+        "link": "https://kubernetes.io/",
+        "active": true,
+        "moved": 0
+      },
+      {
+        "quadrant": 1,
+        "ring": 0,
+        "label": "Node.js",
+        "link": "https://nodejs.org/en/",
+        "active": true,
+        "moved": 0
+      },
+      {
+        "quadrant": 1,
+        "ring": 0,
+        "label": "Azure App service",
+        "link": "https://azure.microsoft.com/en-us/products/app-service/",
+        "active": true,
+        "moved": 0
+      },
+      {
+        "quadrant": 1,
+        "ring": 0,
+        "label": "Azure SQL",
+        "link": "https://azure.microsoft.com/en-us/products/azure-sql/database/",
+        "active": true,
+        "moved": 0
+      },
+      {
+        "quadrant": 1,
+        "ring": 0,
+        "label": "Kafka",
+        "link": "https://kafka.apache.org/",
+        "active": true,
+        "moved": 0
+      },
+      {
+        "quadrant": 1,
+        "ring": 0,
+        "label": "Databricks",
+        "link": "https://www.databricks.com/",
+        "active": true,
+        "moved": 0
+      },
+      {
+        "quadrant": 1,
+        "ring": 1,
+        "label": "Azure Cosmos DB",
+        "link": "https://azure.microsoft.com/en-us/products/cosmos-db/",
+        "active": true,
+        "moved": 0
+      },
+       {
+        "quadrant": 1,
+        "ring": 2,
+        "label": "Azure Web Pubsup",
+        "link": "https://azure.microsoft.com/en-us/products/web-pubsub/",
+        "active": true,
+        "moved": 0
+      },
+      {
+        "quadrant": 1,
+        "ring": 2,
+        "label": "Azure Container Apps",
+        "link": "https://azure.microsoft.com/en-us/products/container-apps/",
+        "active": true,
+        "moved": 0
+      },
+      {
+        "quadrant": 1,
+        "ring": 2,
+        "label": "Sem Grep",
+        "link": "https://semgrep.dev/",
+        "active": true,
+        "moved": 0
+      },
+       {
+        "quadrant": 1,
+        "ring": 3,
+        "label": "Mongo DB",
+        "link": "https://www.mongodb.com/home",
+        "active": true,
+        "moved": 0
+      },
+       {
+        "quadrant": 1,
+        "ring": 3,
+        "label": "Azure Container Instances",
+        "link": "https://azure.microsoft.com/en-us/products/container-instances/",
+        "active": true,
+        "moved": 0
+      },
+      {
+        "quadrant": 2,
+        "ring": 0,
+        "label": "Terraform",
+        "link": "https://www.terraform.io/",
+        "active": true,
+        "moved": 0
+      },
+      {
+        "quadrant": 2,
+        "ring": 0,
+        "label": "IntelliJ",
+        "link": "https://www.jetbrains.com/idea/features/",
+        "active": true,
+        "moved": 0
+      },
+      {
+        "quadrant": 2,
+        "ring": 0,
+        "label": "Docker Desktop",
+        "link": "https://docs.docker.com/desktop/",
+        "active": true,
+        "moved": 0
+      },
+      {
+        "quadrant": 2,
+        "ring": 0,
+        "label": "Swagger/Open API",
+        "link": "https://swagger.io/tools/open-source/getting-started/",
+        "active": true,
+        "moved": 0
+      },
+       {
+        "quadrant": 2,
+        "ring": 0,
+        "label": "VS Code",
+        "link": "https://code.visualstudio.com/",
+        "active": true,
+        "moved": 0
+      },
+       {
+        "quadrant": 2,
+        "ring": 1,
+        "label": "Renovate",
+        "link": "https://docs.renovatebot.com/",
+        "active": true,
+        "moved": 0
+      },
+       {
+        "quadrant": 2,
+        "ring": 2,
+        "label": "Azure Bicep",
+        "link": "https://learn.microsoft.com/en-us/azure/azure-resource-manager/bicep/overview?tabs=bicep",
+        "active": true,
+        "moved": 0
+      },
+       {
+        "quadrant": 2,
+        "ring": 2,
+        "label": "Backstage",
+        "link": "https://backstage.io/",
+        "active": true,
+        "moved": 0
+      },
+      {
+        "quadrant": 3,
+        "ring": 0,
+        "label": "SAFe",
+        "link": "https://scaledagile.com/what-is-safe/",
+        "active": true,
+        "moved": 0
+      },
+      {
+        "quadrant": 3,
+        "ring": 0,
+        "label": "DevSecOps",
+        "link": "https://devops.com/",
+        "active": true,
+        "moved": 0
+      },
+      {
+        "quadrant": 3,
+        "ring": 0,
+        "label": "Scrum",
+        "link": "https://www.scrum.org/",
+        "active": true,
+        "moved": 0
+      },
+      {
+        "quadrant": 3,
+        "ring": 0,
+        "label": "Cloud Native",
+        "link": "https://learn.microsoft.com/en-us/dotnet/architecture/cloud-native/definition",
+        "active": true,
+        "moved": 0
+      },
+      {
+        "quadrant": 3,
+        "ring": 0,
+        "label": "SCA",
+        "link": "https://www.synopsys.com/glossary/what-is-software-composition-analysis.html#:~:text=Definition,license%20compliance%2C%20and%20code%20quality.",
+        "active": true,
+        "moved": 0
+      },
+      {
+        "quadrant": 3,
+        "ring": 0,
+        "label": "SAST",
+        "link": "https://www.microfocus.com/en-us/what-is/sast",
+        "active": true,
+        "moved": 0
+      },
+      {
+        "quadrant": 3,
+        "ring": 0,
+        "label": "DAST",
+        "link": "https://www.rapid7.com/fundamentals/dast/#:~:text=Dynamic%20Application%20Security%20Testing%20(DAST)%20is%20a%20procedure%20that%20actively,to%20detect%20possible%20security%20vulnerabilities.",
+        "active": true,
+        "moved": 0
+      },
+      {
+        "quadrant": 3,
+        "ring": 0,
+        "label": "Continuous Delivery",
+        "link": "https://continuousdelivery.com/",
+        "active": true,
+        "moved": 0
+      },
+      {
+        "quadrant": 3,
+        "ring": 0,
+        "label": "Static Frontends",
+        "active": true,
+        "moved": 0
+      },
+      {
+        "quadrant": 3,
+        "ring": 0,
+        "label": "IaC",
+        "link": "https://learn.microsoft.com/en-us/devops/deliver/what-is-infrastructure-as-code",
+        "active": true,
+        "moved": 0
+      },
+      {
+        "quadrant": 3,
+        "ring": 0,
+        "label": "Microservices",
+        "link": "https://microservices.io/",
+        "active": true,
+        "moved": 0
+      },
+      {
+        "quadrant": 3,
+        "ring": 0,
+        "label": "Internal Platform",
+        "link": "https://internalplatforms.com/",
+        "active": true,
+        "moved": 0
+      },
+      {
+        "quadrant": 3,
+        "ring": 1,
+        "label": "Docs-as-Code",
+        "link": "https://www.writethedocs.org/guide/docs-as-code/",
+        "active": true,
+        "moved": 0
+      },
+      {
+        "quadrant": 3,
+        "ring": 1,
+        "label": "Micro-Frontends",
+        "link": "https://micro-frontends.org/",
+        "active": true,
+        "moved": 0
+      },
+      {
+        "quadrant": 3,
+        "ring": 1,
+        "label": "Monorepo",
+        "link": "https://monorepo.tools/",
+        "active": true,
+        "moved": 0
+      },
+      {
+        "quadrant": 3,
+        "ring": 1,
+        "label": "Continuous Deployement",
+        "link": "https://cloud.gov/docs/management/continuous-deployment/",
+        "active": true,
+        "moved": 0
+      },
+      {
+        "quadrant": 3,
+        "ring": 2,
+        "label": "SBOM",
+        "link": "https://www.cisa.gov/sbom",
+        "active": true,
+        "moved": 0
+      },
+      {
+        "quadrant": 3,
+        "ring": 2,
+        "label": "SLSA",
+        "link": "https://slsa.dev/",
+        "active": true,
+        "moved": 0
+      },
+      {
+        "quadrant": 3,
+        "ring": 3,
+        "label": "Hybrid cloud",
+        "link": "https://www.netapp.com/hybrid-cloud/what-is-hybrid-cloud/#:~:text=Hybrid%20cloud%20refers%20to%20a,orchestration%20among%20the%20various%20platforms.",
+        "active": true,
+        "moved": 0
+      }
+]
