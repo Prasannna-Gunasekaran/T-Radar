@@ -1,0 +1,91 @@
+
+<html>
+
+<head>
+<meta http-equiv="Content-type" content="text/html; charset=utf-8">
+<title>JAP Tech Radar</title>
+
+<script src="https://d3js.org/d3.v4.min.js"></script>
+<script src=
+"https://code.jquery.com/jquery-3.5.1.js">
+    </script>
+<script type="text/javascript" src="entries.json"></script>
+<script src="radar.js"></script>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"> </script>
+
+</head>
+
+<body>
+
+<svg id="radar"></svg>
+
+<script>
+//TODO
+//$.getJSON("http://github/entries.json", function (data) {
+$.getJSON("entries.json", function (data) {
+radar_visualization({
+  svg_id: "radar",
+  width: 1450,
+  height: 1000,
+  colors: {
+    background: "#fff",
+    grid: "#bbb",
+    inactive: "#ddd"
+  },
+  title: "JAP Tech Radar",
+  quadrants: [
+    { name: "Languages & Frameworks" },
+    { name: "Platforms & Services" },
+    { name: "Tools" },
+    { name: "Methodologies" },
+  ],
+  rings: [
+    { name: "ADOPT", color: "#93c47d" },
+    { name: "TRIAL", color: "#93d2c2" },
+    { name: "ASSESS", color: "#fbdb84" },
+    { name: "HOLD", color: "#efafa9" }
+  ],
+  print_layout: true,
+  // zoomed_quadrant: 0,
+  //ENTRIES
+ 
+   
+}, data);
+
+});
+  //ENTRIES
+</script>
+
+<table>
+<tr>
+<td>
+
+<h3>What is the Tech Radar?</h3>
+
+<p>
+The JAP Tech Radar is a list of technologies, complemented by an assessment result, called <em>ring assignment</em>. We use four rings with the following semantics:
+</p>
+
+<ul>
+<li><strong>ADOPT</strong> &mdash; Technologies we have high confidence in to serve our purpose, also in large scale. Technologies with a usage culture in our JAP production environment, low risk and recommended to be widely used.</li>
+<li><strong>TRIAL</strong> &mdash; Technologies that we have seen working with success in project work to solve a real problem; first serious usage experience that confirms benefits and can uncover limitations. TRIAL technologies are slightly more risky; some engineers in our organization have already walked this path and will share knowledge and experiences.</li>
+<li><strong>ASSESS</strong> &mdash; Technologies that are promising and have a clear potential added value for us; technologies worth investing some research and prototyping efforts in them to see if they have impact. ASSESS technologies have higher risks; they are often brand new and highly unproven in our organisation and others. You will find some engineers that have knowledge in the technology and promote it, you may even find teams that have started a prototyping effort.</li>
+<li><strong>HOLD</strong> &mdash; Technologies not recommended to be used for new projects. Technologies that we think are not (yet) worth to (further) invest in them. HOLD technologies should not be used for new projects, but usually can be continued to be used for existing projects.</li>
+</ul>
+
+</td><td>
+
+<h3>What is the purpose of the Tech Radar?</h3>
+
+The Skywalker Tech Radar is a tool to inspire and support the engineering teams working for JAP to select the best technologies for new projects. It offers the opportunity to share knowledge and experience with technologies, to think about technology decisions and to continuously develop our technology landscape. The TechRadar is intended to represent the changes that we think all JAP teams should observe and use in their projects.Based on the <strong>" Thoughtworks Tech Radar which is modified by La Mobilière in 2022 "</strong>.
+
+
+<h3>How do we maintain it?</h3>
+
+The data points are evaluated and updated at regular intervals in collaboration with the architecture. The code basis of the radar is also updated in this rhythm.The repo is here.
+
+</td></tr>
+</table>
+
+</body>
+</html>
